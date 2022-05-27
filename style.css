@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+* {
+    padding: auto;
+}
+
+#body {
+    border-top: 15px solid #d4a373;
+}
+
+#headers {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Odibee Sans', cursive;
+}
+
+#header1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    text-decoration: underline overline;
+    color: #432818
+}
+
+#header1:hover {
+    transition: 1s;
+    color: grey;
+}
+
+#header2 {
+    font-size: 60px;
+    color: #d4a373;
+}
+
+#mid1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+#mid2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 25px;
+}
+
+#span {
+    color: #d4a373;
+}
+
+#image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    max-width: 50%;
+
+}
+
+#section2 {
+    margin: 150px;
+}
+
+#section3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+    max-width: 100%;
+}
+
+#section-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    width: 50%;
+}
+
+.footer {
+    background-color: #eaf4f4;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 30px;
+    padding: 20px;
+    opacity: 0.7;
+    align-items: center;
+}
+
+#icon {
+    max-width: 20%
+}
